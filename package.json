@@ -1,13 +1,11 @@
 {
   "name": "watchcmd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
     "clear": "^0.1.0",
-    "colors": "^1.2.4",
-    "commander": "^2.15.1",
-    "shelljs": "^0.8.1"
+    "commander": "^2.15.1"
   },
   "bin": {
     "watchcmd": "./index.js"
