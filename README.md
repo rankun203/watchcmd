@@ -4,15 +4,15 @@
 
 ## Install globally
 
-```
-$ npm i -g watchcmd
+```bash
+npm i -g watchcmd
 ```
 
 ## Run it with any command
 
 You can run command, string of commands, it will repeatedly report the result on the shell screen. e.g:
 
-```
+```bash
 # Run istats every 2 seconds
 watchcmd -t 2000 "istats"
 
@@ -26,7 +26,7 @@ watchcmd "istats; echo; date"
 
 Commands used in this demo:
 
-```
+```bash
 watchcmd istats
 watchcmd "istats; echo; date"
 watchcmd -t 2000 "istats; echo; date"
@@ -54,7 +54,7 @@ Note:
 
 - If your command has arguments, you will need to wrap them in quotation marks, like this:
   
-  ```
+  ```bash
   watchcmd "ping -c 1 www.github.com"
   ```
 
@@ -72,13 +72,13 @@ NOTE: In some system, you can pass `--color` to watch to resolve this color comm
 
 While
 
-```
+```bash
 while sleep 1; do clear; istats; done
 ```
 
 is a workable solution, but flicking. The ultimate `while` solution would be (it's fine to use it):
 
-```
+```bash
 while sleep 1; do istats > /tmp/istats_file; date >> /tmp/istats_file; clear; cat /tmp/istats_file; done
 ```
 
