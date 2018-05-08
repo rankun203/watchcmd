@@ -5,7 +5,7 @@
   "repository": "https://github.com/rankun203/watchcmd",
   "license": "MIT",
   "engines": {
-    "node": ">=6.4.0"
+    "node": ">=7.10.1"
   },
   "dependencies": {
     "clear": "^0.1.0",
