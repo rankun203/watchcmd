@@ -4,6 +4,7 @@ const program = require('commander');
 const util = require('util');
 const exec = util.promisify(require('child_process').exec);
 const clear = require('clear');
+var pjson = require('./package.json');
 
 async function execute(command, clearBeforePrint = false) {
   if (!command) return;
@@ -19,7 +20,7 @@ async function execute(command, clearBeforePrint = false) {
 }
 
 program
-  .version('0.1.0')
+  .version(pjson.version)
   .usage('[options] <cmd>')
   .option('-t, --wait [value]', 'Wait for milliseconds', parseInt)
   .option('-c, --cmd <value>', 'The command')
