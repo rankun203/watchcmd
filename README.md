@@ -50,6 +50,14 @@ watchcmd "ping -c 1 www.github.com; echo; date"
     -h, --help          output usage information
 ```
 
+Note:
+
+- If your command has arguments, you will need to wrap them in quotation marks, like this:
+  
+  ```
+  watchcmd "ping -c 1 www.github.com"
+  ```
+
 ## Why watchcmd
 
 ### Watchcmd vs watch

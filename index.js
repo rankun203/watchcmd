@@ -6,7 +6,7 @@ const exec = util.promisify(require('child_process').exec);
 const clear = require('clear');
 var pjson = require('./package.json');
 
-async function execute(command, clearBeforePrint = false) {
+async function execute(command) {
   if (!command) return;
 
   const {
@@ -30,6 +30,8 @@ program
       wait = 1000
     } = cmd;
 
-    setInterval(() => execute(theCommand, true), wait);
+    console.log('Running command', theCommand);
+    execute(theCommand);
+    setInterval(() => execute(theCommand), wait);
   })
   .parse(process.argv);
