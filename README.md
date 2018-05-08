@@ -1,4 +1,4 @@
-# Watchcmd.js
+# Watchcmd (cli tool)
 
 The simplest way to watch a command output.
 
