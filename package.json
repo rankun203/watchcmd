@@ -1,9 +1,12 @@
 {
   "name": "watchcmd",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "main": "index.js",
   "repository": "https://github.com/rankun203/watchcmd",
   "license": "MIT",
+  "engines": {
+    "node": ">=6.4.0"
+  },
   "dependencies": {
     "clear": "^0.1.0",
     "commander": "^2.15.1"
