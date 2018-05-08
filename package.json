@@ -1,5 +1,5 @@
 {
-  "name": "watcher",
+  "name": "watchcmd",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -10,6 +10,6 @@
     "shelljs": "^0.8.1"
   },
   "bin": {
-    "watcher": "./watcher.js"
+    "watchcmd": "./index.js"
   }
 }
