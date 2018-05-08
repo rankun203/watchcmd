@@ -1,6 +1,6 @@
 # Watchcmd (cli tool)
 
-`watchcmd`, An enhanced `watch` command.
+`watchcmd`, an enhanced `watch` command.
 
 ## Install globally
 
