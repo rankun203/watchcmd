@@ -1,6 +1,6 @@
 # Watchcmd (cli tool)
 
-The simplest way to watch a command output.
+The simplest way to monitor a command output.
 
 ## Install globally
 
