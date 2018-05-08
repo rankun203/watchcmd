@@ -89,3 +89,4 @@ Watchcmd isn't that complicated, it's just a single JavaScript file that does al
 ## Roadmap
 
 - [ ] Add an argument to monitor content on screen and send notifications to user.
+- [ ] Skip execution while the command is executing.
