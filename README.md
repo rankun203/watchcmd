@@ -77,3 +77,7 @@ while sleep 1; do istats > /tmp/istats_file; date >> /tmp/istats_file; clear; ca
 But hey, isn't it complicated?
 
 Watchcmd isn't that complicated, it's just a single JavaScript file that does all the hard work for you.
+
+## Roadmap
+
+- [ ] Add an argument to monitor content on screen and send notifications to user.
