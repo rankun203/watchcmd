@@ -1,5 +1,4 @@
-Watchcmd.js
-====
+# Watchcmd.js
 
 The simplest way to watch a command output.
 
@@ -55,7 +54,7 @@ watchcmd "ping -c 1 www.github.com; echo; date"
 
 ### Watchcmd vs watch
 
-![Watchcmd vs Watch](./assets/watchcmd-vs-watch.png)
+![Watchcmd vs Watch](https://github.com/rankun203/watchcmd/blob/master/assets/watchcmd-vs-watch.png)
 
 Watchcmd's command can be further simplified as `watchcmd istats`, if you want it to be updated once per second.
 
