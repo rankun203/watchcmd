@@ -22,7 +22,7 @@ watchcmd "istats; echo; date"
 
 **Demo**
 
-<a href="https://asciinema.org/a/ONEe9M3JTXtlSVfTNC838heAH" target="_blank"><img src="https://asciinema.org/a/ONEe9M3JTXtlSVfTNC838heAH.png" width="582.5" /></a>
+<a href="https://asciinema.org/a/180364" target="_blank"><img src="https://asciinema.org/a/180364.png" width="589.5" /></a>
 
 Commands used in this demo:
 
