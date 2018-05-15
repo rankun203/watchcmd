@@ -2,7 +2,7 @@
   "name": "watchcmd",
   "description": "An enhanced watch command",
   "keywords": ["watch", "watcher"],
-  "version": "1.0.13",
+  "version": "1.0.14",
   "main": "index.js",
   "author": "Kun Ran <kun@lodestream.com> (https://lodestream.com)",
   "repository": "https://github.com/rankun203/watchcmd",
