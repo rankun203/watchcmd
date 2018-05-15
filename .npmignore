@@ -1,2 +1,5 @@
 # Images
 assets/watchcmd-vs-watch.png
+
+# Package manager's cache
+yarn.lock
